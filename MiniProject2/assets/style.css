@@ -8,7 +8,7 @@
 
 
 @font-face {
-    font-family: "Poppins";
+    font-family: "Poppins" ;
     src: url("./fonts/Poppins-Medium.ttf");
 }
 
@@ -20,20 +20,20 @@
 /* overlay background start here */
 #background {
     position: relative;
-    
-    
+
+
     padding: 100px 50px;
 }
 
-#background  .background-image,
+#background .background-image,
 .background-overlay {
     position: absolute;
     inset: 0;
- 
+
 }
 
 #background .background-image {
- 
+
     background: url("./images/background-image.jpg") center center / cover no-repeat;
     z-index: 1;
 }
@@ -79,7 +79,7 @@
     width: auto;
     padding: 10px 20px;
     border-radius: 996px;
-} 
+}
 
 
 /* background section end here */
@@ -89,7 +89,7 @@
 /* main section start here   */
 
 
-.heading {
+#Main .heading {
     text-align: center;
     margin: 10px auto 100px;
     text-transform: uppercase;
@@ -172,7 +172,7 @@ section#Main .card-parent>.card {
 /* section end here */
 
 
-/* Review section start here */ 
+/* Review section start here */
 
 #reviews {
     background-color: #f5f5f5;
@@ -211,7 +211,7 @@ section#Main .card-parent>.card {
     padding: 35px 25px 65px;
     background-color: #fff;
     box-shadow:
-       9px 12px 14px 0 rgba(0,0,0,.1)
+        9px 12px 14px 0 rgba(0, 0, 0, .1)
 }
 
 
@@ -244,7 +244,7 @@ section#Main .card-parent>.card {
     line-height: 1.5;
 }
 
-#reviews .review-images > img{
+#reviews .review-images>img {
     width: 5%;
 
 }
@@ -268,9 +268,11 @@ section#Main .card-parent>.card {
 
 #choose-section {
     padding: 50px;
-    display:flex ;
+    display: flex;
 }
-.right-section , .left-section {
+
+.right-section,
+.left-section {
     width: 50%;
 }
 
@@ -278,23 +280,23 @@ section#Main .card-parent>.card {
     padding: 50px 50px 0;
 }
 
-#choose-section .left-section > h5{
+#choose-section .left-section>h5 {
     font-family: "Saira", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    color: #8d0000  ;
+    color: #8d0000;
     padding: 20px 0px;
 }
 
 
-#choose-section .left-section > h3{
+#choose-section .left-section>h3 {
     font-family: "Saira", sans-serif;
     font-size: 30px;
     margin-bottom: 30px;
 
 }
 
-#choose-section .left-section > p{
+#choose-section .left-section>p {
     font-family: "Montserratrif";
     font-size: 17px;
     font-weight: 500;
@@ -305,51 +307,51 @@ section#Main .card-parent>.card {
     padding: 50px 50px 0px;
 }
 
- #choose-section   .background{
-   padding: 130px 50px;
-  
+#choose-section .background {
+    padding: 130px 50px;
+
     position: relative;
 }
 
-#choose-section   .background-image {
+#choose-section .background-image {
     position: absolute;
-    inset:0;
+    inset: 0;
 
-    background: url("./images/testimonial-image-2.jpeg")  center / cover  no-repeat;
+    background: url("./images/testimonial-image-2.jpeg") center / cover no-repeat;
     z-index: 2;
-} 
+}
 
 
-#choose-section   .black-overlay {
+#choose-section .black-overlay {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 5%;
     right: 5%;
     bottom: 5%;
-    top:50%;
+    top: 50%;
     z-index: 3;
 
 
 }
 
 
-#choose-section  .right-content {
+#choose-section .right-content {
     box-sizing: border-box;
     position: relative;
     top: 110px;
     padding: 30px 10px;
     z-index: 4;
-    color:#fff;
+    color: #fff;
 }
 
-#choose-section  .right-content > h3 {
+#choose-section .right-content>h3 {
     text-align: left !important;
-    font-size:15px;
+    font-size: 15px;
     margin-bottom: 30px;
 }
 
-#choose-section  .right-content > p {
-    
+#choose-section .right-content>p {
+
     line-height: 17px;
     font-family: "saira";
     font-size: 15px;
@@ -360,16 +362,17 @@ section#Main .card-parent>.card {
 /* mission section start here */
 
 #mission-section {
-     padding: 150px 100px;   
-     background-color: #f5f5f5;     
-     display: flex;
+    padding: 150px 100px;
+    background-color: #f5f5f5;
+    display: flex;
 
 }
+
 #mission-section .mission-left-description {
     padding: 30px;
 }
 
-#mission-section .mission-left-description >h5 {
+#mission-section .mission-left-description>h5 {
     font-size: 25px;
     font-family: "Saira", Sans-serif;
     font-weight: 600;
@@ -377,22 +380,69 @@ section#Main .card-parent>.card {
     margin-bottom: 20px;
 }
 
-#mission-section .mission-left-description > h3 {
+#mission-section .mission-left-description>h3 {
     font-size: 40px;
     margin-bottom: 20px;
 
 }
 
-#mission-section .mission-left-description > p {
+#mission-section .mission-left-description>p {
     font-size: 21px;
     line-height: 1.8;
     font-family: "Montserrat", Sans-serif;
 }
+
 #mission-section .mission-left {
     padding: 50px;
 }
 
 #mission-section .mission-right {
-    padding: 50px  130px;
+    padding: 50px 130px;
 }
 
+/* mission section end here */
+
+
+/* customer section start here */
+
+
+#customers {
+    padding: 150px 50px 50px;
+}
+
+#customers .heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#customers .heading>h3 {
+    font-family: "Saira", Sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#customers .customers-images {
+    display: flex;
+}
+
+#customers span {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+#customers .customers-images {
+    padding: 50px ;
+}
+
+
+#customers .customer-cards-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+#customers .customer-card>img {
+    width: 100%;
+}
