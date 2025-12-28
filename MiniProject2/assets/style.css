@@ -260,3 +260,102 @@ section#Main .card-parent>.card {
 } */
 
 /* review section end here
+
+
+
+
+
+
+
+/* choose section start here */
+
+#choose-section {
+    padding: 50px;
+    display:flex ;
+}
+.right-section , .left-section {
+    width: 50%;
+}
+
+.left-section {
+    padding: 50px 50px 0;
+}
+
+#choose-section .left-section > h5{
+    font-family: "Saira", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8d0000  ;
+    padding: 20px 0px;
+}
+
+
+#choose-section .left-section > h3{
+    font-family: "Saira", sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+#choose-section .left-section > p{
+    font-family: "Montserratrif";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#choose-section .right-section {
+    padding: 50px 50px 0px;
+}
+
+ #choose-section   .background{
+   padding: 130px 50px;
+  
+    position: relative;
+}
+
+#choose-section   .background-image {
+    position: absolute;
+    inset:0;
+
+    background: url("./images/testimonial-image-2.jpeg")  center / cover  no-repeat;
+    z-index: 2;
+} 
+
+
+#choose-section   .black-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    top:50%;
+    z-index: 3;
+
+
+}
+
+
+#choose-section  .right-content {
+    box-sizing: border-box;
+    position: relative;
+    top: 110px;
+    padding: 30px 10px;
+    z-index: 4;
+    color:#fff;
+}
+
+#choose-section  .right-content > h3 {
+    text-align: left !important;
+    font-size:15px;
+    margin-bottom: 30px;
+}
+
+#choose-section  .right-content > p {
+    
+    line-height: 17px;
+    font-family: "saira";
+    font-size: 15px;
+}
+
+
