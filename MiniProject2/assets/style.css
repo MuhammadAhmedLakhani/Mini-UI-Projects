@@ -20,8 +20,8 @@
 /* overlay background start here */
 #background {
     position: relative;
-    width: 100%;
-    min-height: 100vh;
+    
+    
     padding: 100px 50px;
 }
 
@@ -355,4 +355,44 @@ section#Main .card-parent>.card {
     font-size: 15px;
 }
 
-/* chhose section end here */
+/* choose section end here */
+
+/* mission section start here */
+
+#mission-section {
+     padding: 150px 100px;   
+     background-color: #f5f5f5;     
+     display: flex;
+
+}
+#mission-section .mission-left-description {
+    padding: 30px;
+}
+
+#mission-section .mission-left-description >h5 {
+    font-size: 25px;
+    font-family: "Saira", Sans-serif;
+    font-weight: 600;
+    color: #8d0000;
+    margin-bottom: 20px;
+}
+
+#mission-section .mission-left-description > h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+#mission-section .mission-left-description > p {
+    font-size: 21px;
+    line-height: 1.8;
+    font-family: "Montserrat", Sans-serif;
+}
+#mission-section .mission-left {
+    padding: 50px;
+}
+
+#mission-section .mission-right {
+    padding: 50px  130px;
+}
+
