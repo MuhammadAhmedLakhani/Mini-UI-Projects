@@ -74,8 +74,9 @@
 
 #background .background-content>button {
     width: auto;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 996px;
+    font-size: 20px;
 }
 
 
@@ -110,7 +111,7 @@ section#Main .card-parent {
     justify-content: space-between;
     /* align-items: center; */
     gap: 60px;
-    padding: 60px;
+    padding: 0px 260px;
 }
 
 
@@ -149,7 +150,6 @@ section#Main .card-parent>.card {
     margin-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    width: 60%;
 
 }
 
@@ -177,7 +177,7 @@ section#Main .card-parent>.card {
 
 #reviews {
     background-color: #f5f5f5;
-    padding: 100px 50px;
+    padding: 100px 270px;
 }
 
 #reviews .reviews-description {
@@ -268,7 +268,7 @@ section#Main .card-parent>.card {
 /* choose section start here */
 
 #choose-section {
-    padding: 50px;
+    padding:100px 250px;
     display: flex;
 }
 
@@ -363,7 +363,7 @@ section#Main .card-parent>.card {
 /* mission section start here */
 
 #mission-section {
-    padding: 150px 100px;
+    padding: 150px 220px;
     background-color: #f5f5f5;
     display: flex;
 
@@ -408,7 +408,7 @@ section#Main .card-parent>.card {
 
 
 #customers {
-    padding: 150px 50px 50px;
+    padding: 150px 250px 50px;
 }
 
 #customers .heading {
@@ -422,9 +422,6 @@ section#Main .card-parent>.card {
     font-size: 40px;
 }
 
-#customers .customers-images {
-    display: flex;
-}
 
 #customers span {
     display: flex;
@@ -476,7 +473,7 @@ section#Main .card-parent>.card {
 
 
 #gym-section .left-heading {
-    0 width: 100%;
+    width: 100%;
 
 }
 
@@ -525,3 +522,75 @@ section#Main .card-parent>.card {
     border: transparent;
 
 }
+
+
+/* Gym section ends here */
+
+
+/* Training section start here */
+
+#training-section {
+    height: 100vh;
+    padding: 100px 250px;
+}
+
+#training-section .training-section-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+#training-section .left-container {
+    width: 50%;
+    padding: 20px;
+    
+ }
+#training-section .right-container {
+    width: 50%;
+
+ }
+#training-section .training-heading > h3{
+    font-size: 60px;
+    font-family: "Roboto","sans-serif";
+    font-weight: 550;
+    line-height: 1.2;
+    margin: 30px 10px 50px;
+
+}
+
+ #training-section .training-type1-heading > h4 , #training-section .training-type2-heading > h4 , #training-section .training-type3-heading > h4{
+       font-size: 30px; 
+       font-family: "Open Sans", sans-serif;
+       color: #111111;
+       margin: 40px 10px;
+ }
+  #training-section .training-type1-description > p ,#training-section .training-type2-description > p , #training-section .training-type3-description > p{
+       font-size: 25px; 
+       font-family: "Open Sans", sans-serif;
+       color: #999999 !important;
+ }
+.right-child1 {
+    margin-bottom: 20px;
+}
+
+ .right-child1 > img {
+       width: 100%; 
+ }
+
+.right-child2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.right-child2  img {
+    width: 100%;
+}
+
+
+
+
