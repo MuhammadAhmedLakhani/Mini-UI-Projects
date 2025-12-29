@@ -8,14 +8,11 @@
 
 
 @font-face {
-    font-family: "Poppins" ;
+    font-family: "Poppins";
     src: url("./fonts/Poppins-Medium.ttf");
 }
 
-#Main {
-    background: rgb(247 247 247);
-    padding: 100px 50px
-}
+
 
 /* overlay background start here */
 #background {
@@ -88,6 +85,10 @@
 
 /* main section start here   */
 
+#Main {
+    background: rgb(247 247 247);
+    padding: 100px 50px
+}
 
 #Main .heading {
     text-align: center;
@@ -433,7 +434,7 @@ section#Main .card-parent>.card {
 }
 
 #customers .customers-images {
-    padding: 50px ;
+    padding: 50px;
 }
 
 
@@ -445,4 +446,82 @@ section#Main .card-parent>.card {
 
 #customers .customer-card>img {
     width: 100%;
+}
+
+
+
+/* gym section start here */
+
+#gym-section {
+    height: 100vh;
+    background: url(./images/gym-bg.jpg);
+    padding: 150px 250px;
+}
+
+#gym-section .left-gym-section {
+    padding: 10px 70px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#gym-section .right-gym-section {
+    width: 40%;
+}
+
+#gym-section .left-container {
+    width: 60%;
+}
+
+
+#gym-section .left-heading {
+    0 width: 100%;
+
+}
+
+#gym-section .left-heading>h1 {
+
+    font-size: 70px;
+    background-color: #fff;
+    padding: 50px 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+
+}
+
+
+#gym-section .left-para {
+    margin: 50px 0px;
+}
+
+#gym-section .left-para>p {
+
+    color: #fff;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+#gym-section .reference {
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+#gym-section .reference span {
+    text-decoration: underline;
+}
+
+#gym-section .left-btn>button {
+    padding: 25px 50PX;
+    background-color: #e80913;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border: transparent;
+
 }
