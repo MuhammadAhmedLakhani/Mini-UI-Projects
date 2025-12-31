@@ -268,7 +268,7 @@ section#Main .card-parent>.card {
 /* choose section start here */
 
 #choose-section {
-    padding:100px 250px;
+    padding: 100px 250px;
     display: flex;
 }
 
@@ -544,39 +544,47 @@ section#Main .card-parent>.card {
 #training-section .left-container {
     width: 50%;
     padding: 20px;
-    
- }
+
+}
+
 #training-section .right-container {
     width: 50%;
 
- }
-#training-section .training-heading > h3{
+}
+
+#training-section .training-heading>h3 {
     font-size: 60px;
-    font-family: "Roboto","sans-serif";
+    font-family: "Roboto", "sans-serif";
     font-weight: 550;
     line-height: 1.2;
     margin: 30px 10px 50px;
 
 }
 
- #training-section .training-type1-heading > h4 , #training-section .training-type2-heading > h4 , #training-section .training-type3-heading > h4{
-       font-size: 30px; 
-       font-family: "Open Sans", sans-serif;
-       color: #111111;
-       margin: 40px 10px;
- }
-  #training-section .training-type1-description > p ,#training-section .training-type2-description > p , #training-section .training-type3-description > p{
-       font-size: 25px; 
-       font-family: "Open Sans", sans-serif;
-       color: #999999 !important;
- }
+#training-section .training-type1-heading>h4,
+#training-section .training-type2-heading>h4,
+#training-section .training-type3-heading>h4 {
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    margin: 40px 10px;
+}
+
+#training-section .training-type1-description>p,
+#training-section .training-type2-description>p,
+#training-section .training-type3-description>p {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #999999 !important;
+}
+
 .right-child1 {
     margin-bottom: 20px;
 }
 
- .right-child1 > img {
-       width: 100%; 
- }
+.right-child1>img {
+    width: 100%;
+}
 
 .right-child2 {
     width: 100%;
@@ -587,10 +595,154 @@ section#Main .card-parent>.card {
 }
 
 
-.right-child2  img {
+.right-child2 img {
     width: 100%;
 }
 
+/* Training section ends here */
+
+#running-section {
+    padding: 100px 250px;
+
+}
 
 
+#running-section .running-heading>h1 {
+    text-align: center;
+    font-size: 75px;
+    line-height: 1.1;
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    color: #00bdcc;
+}
 
+#running-section .running-benefits {
+    padding: 200px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 50px;
+}
+
+#running-section .left-benefits {
+    width: 50%;
+}
+
+#running-section .right-bernefits {
+    width: 50%;
+}
+
+#running-section .left-benefits-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+#running-section .left-benefits-image1 {
+    width: 50%;
+    height: 50%;
+}
+
+#running-section .left-benefits-description1 {
+    width: 50%;
+}
+
+#running-section .left-benefits-image1>img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+#running-section .left-benefits-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+
+}
+
+#running-section .left-benefits-image2 {
+    width: 300px;
+    height: 300px;
+    
+}
+
+#running-section .left-benefits-description2 {
+    width: 50%;
+}
+
+#running-section .left-benefits-image2>img {
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+
+}
+
+#running-section .right-benefits-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 50px;
+    margin-bottom: 50px;
+
+}
+
+#running-section .right-benefits-image1 {
+    width: 50%;
+    height: 50%;
+}
+
+#running-section .right-benefits-description1 {
+    width: 50%;
+}
+
+#running-section .right-benefits-image1>img {
+    width: 90%;
+    border-radius: 50%;
+
+}
+
+#running-section .right-benefits-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+
+}
+
+#running-section .right-benefits-image2 {
+    width: 50%;
+    height: 50%;
+}
+
+#running-section .right-benefits-description2 {
+    width: 50%;
+}
+
+#running-section .right-benefits-image2>img {
+    width: 90%;
+    border-radius: 50%;
+
+}
+
+#running-section h5 {
+    font-size: 34px;
+    font-family: 'Open Sans', "sans-serif";
+    color: #20baca;
+    line-height: 29px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#running-section p {
+    font-size: 26px;
+    font-family: 'Open Sans', "sans-serif";
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 1.8;
+}
