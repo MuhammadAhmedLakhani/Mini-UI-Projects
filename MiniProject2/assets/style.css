@@ -4,9 +4,112 @@
 }
 
 
-/* font settings */
 
 
+/* navbar section start here */
+
+
+#navbar-section {
+    height: 300px;
+}
+
+
+#navbar-section .top-navbar {
+    margin-top: 0;
+    background: #f1f8fc;
+    padding: 5px 0;
+}
+
+#navbar-section .top-nav-container {
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+#navbar-section .location>p {
+    padding: 10px;
+    /* padding-right: 15px; */
+    font-family: "Montserrat, sans-serif";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #323846;
+}
+
+#navbar-section .call-us :nth-child(2) {
+    color: #323846;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 950;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    gap: 50px;
+}
+
+#navbar-section .call-us {
+    padding: 2px;
+}
+
+#navbar-section .call-us :nth-child(3) {
+    color: rgb(50, 56, 70);
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+
+#navbar-section .bottom-navbar {
+    background-color: #007dba;
+    padding: 15px 120px;
+}
+
+
+
+#navbar-section .bottom-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#navbar-section .logo-image>img {
+    width: 80%;
+}
+
+#navbar-section .links-container>li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+#navbar-section .links-container>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat, sans-serif";
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+#navbar-section .question-btn>button {
+    font-family: Montserrat, sans-serif;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+/* naVBAR SECTION ENDS HERE */
 
 
 /* banner section start here */
@@ -724,7 +827,7 @@ section#Main .card-parent>.card {
     line-height: 1.1;
     font-family: "Oswald", sans-serif;
     font-weight: 800;
-    color: #00bdcc;
+    color: #252424;
 }
 
 #running-section .running-benefits {
@@ -844,7 +947,7 @@ section#Main .card-parent>.card {
 #running-section h5 {
     font-size: 34px;
     font-family: 'Open Sans', "sans-serif";
-    color: #20baca;
+    color: #FFF;
     line-height: 29px;
     font-weight: 600;
     text-transform: uppercase;
@@ -858,107 +961,42 @@ section#Main .card-parent>.card {
     line-height: 1.8;
 }
 
+/* footer section start here */
 
-
-/* navbar section start here */
-
-
-#navbar-section {
-    height: 300px;
+#footer-section {
+    background-color: #323846;
+    padding: 115px 120px;
 }
 
-
-#navbar-section .top-navbar {
-    margin-top: 0;
-    background: #f1f8fc;
-    padding: 5px 0;
-}
-
-#navbar-section .top-nav-container {
-    margin: 0 auto;
-    padding: 5px;
-    max-width: 1300px;
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-}
-
-#navbar-section .location>p {
-    padding: 10px;
-    /* padding-right: 15px; */
-    font-family: "Montserrat, sans-serif";
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: #323846;
-}
-
-#navbar-section .call-us :nth-child(2) {
-    color: #323846;
-    padding-left: 10px;
-    font-size: 13px;
-    font-weight: 950;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    gap: 50px;
-}
-
-#navbar-section .call-us {
-    padding: 2px;
-}
-
-#navbar-section .call-us :nth-child(3) {
-    color: rgb(50, 56, 70);
-    font-size: 14px;
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 26px;
-}
-
-
-#navbar-section .bottom-navbar {
-    background-color: #007dba;
-    padding: 15px 120px;
-}
-
-
-
-#navbar-section .bottom-nav-container {
+#footer-section .footer-section-parent {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
 }
 
-#navbar-section .logo-image>img {
-    width: 80%;
+#footer-section .footer-logo  > img{
+    width: 70% !important;
+    margin-bottom: 15px;
 }
 
-#navbar-section .links-container>li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 15px;
+.contact *  {
+    color: #FFF;
+    margin-top: 15px;
 }
 
-#navbar-section .links-container>li>a {
+
+#footer-section .footer-heading > h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #007dba;
+    margin-bottom: 15px;
+} 
+
+
+#footer-section .fotter-links > a {
+    display:block;
+    margin-top: 15px;
     text-decoration: none;
-    font-size: 18px;
-    font-family: "Montserrat, sans-serif";
-    text-transform: uppercase;
-    color: #fff;
-}
-
-
-#navbar-section .question-btn > button {
-    font-family: Montserrat, sans-serif;
-    padding: 15px;
-    font-weight: 500;
-    font-size: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: transparent;
-}
+    color:#fff;
+    font-size: 15px;
+ }
