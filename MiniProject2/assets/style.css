@@ -20,7 +20,7 @@
 
 #banner-section {
     height: 100vh;
-    padding: 30px 0px 50px 200px;
+    padding: 30px 0px 50px 120px;
 
 }
 
@@ -95,13 +95,13 @@
 #red-section {
     background-color: #e80913;
     height: 150px;
-    padding: 30px;
+    padding: 30px 125px;
 }
 
 
 #red-section .red-cards-parent {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #red-section .red-transparent-card {
@@ -118,7 +118,7 @@
 
 #red-section .red-transparent-card>h4 {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.8;
     font-family: Roboto, sans-serif;
@@ -157,7 +157,7 @@ section#Main .card-parent {
     justify-content: space-between;
     /* align-items: center; */
     gap: 60px;
-    padding: 0px 260px;
+    padding: 0px 120px;
 }
 
 
@@ -170,7 +170,7 @@ section#Main .card-parent .card img {
 }
 
 section#Main .card-parent>.card {
-    padding:80px  15px;
+    padding: 80px 15px;
     text-align: center;
     box-shadow:
         0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -294,7 +294,7 @@ section#Main .card-parent>.card {
 
 #reviews {
     background-color: #f5f5f5;
-    padding: 100px 270px;
+    padding: 100px 125px;
 }
 
 #reviews .reviews-description {
@@ -385,7 +385,7 @@ section#Main .card-parent>.card {
 /* choose section start here */
 
 #choose-section {
-    padding: 100px 250px;
+    padding: 100px 120px;
     display: flex;
 }
 
@@ -480,7 +480,7 @@ section#Main .card-parent>.card {
 /* mission section start here */
 
 #mission-section {
-    padding: 150px 220px;
+    padding: 150px 120px;
     background-color: #f5f5f5;
     display: flex;
 
@@ -525,7 +525,7 @@ section#Main .card-parent>.card {
 
 
 #customers {
-    padding: 150px 250px 50px;
+    padding: 150px 120px 50px;
 }
 
 #customers .heading {
@@ -569,7 +569,7 @@ section#Main .card-parent>.card {
 #gym-section {
     height: 100vh;
     background: url(./images/gym-bg.jpg);
-    padding: 150px 250px;
+    padding: 150px 120px;
 }
 
 #gym-section .left-gym-section {
@@ -648,7 +648,7 @@ section#Main .card-parent>.card {
 
 #training-section {
     height: 100vh;
-    padding: 100px 250px;
+    padding: 100px 120px;
 }
 
 #training-section .training-section-parent {
@@ -719,7 +719,7 @@ section#Main .card-parent>.card {
 /* Training section ends here */
 
 #running-section {
-    padding: 100px 250px;
+    padding: 100px 120px;
 
 }
 
@@ -862,4 +862,109 @@ section#Main .card-parent>.card {
     font-style: italic;
     margin-top: 20px;
     line-height: 1.8;
+}
+
+
+
+/* navbar section start here */
+
+
+#navbar-section {
+    height: 300px;
+}
+
+
+#navbar-section .top-navbar {
+    margin-top: 0;
+    background: #f1f8fc;
+    padding: 5px 0;
+}
+
+#navbar-section .top-nav-container {
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+#navbar-section .location>p {
+    padding: 10px;
+    /* padding-right: 15px; */
+    font-family: "Montserrat, sans-serif";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #323846;
+}
+
+#navbar-section .call-us :nth-child(2) {
+    color: #323846;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 950;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    gap: 50px;
+}
+
+#navbar-section .call-us {
+    padding: 2px;
+}
+
+#navbar-section .call-us :nth-child(3) {
+    color: rgb(50, 56, 70);
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+
+#navbar-section .bottom-navbar {
+    background-color: #007dba;
+    padding: 15px 120px;
+}
+
+
+
+#navbar-section .bottom-nav-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 30px;
+}
+
+#navbar-section .logo-image>img {
+    width: 80%;
+}
+
+#navbar-section .links-container>li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+#navbar-section .links-container>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat, sans-serif";
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+#navbar-section .question-btn > button {
+    font-family: Montserrat, sans-serif;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
 }
