@@ -1106,7 +1106,7 @@ section#Main .card-parent>.card {
     /* responsive banner start here */
 
     #banner-section {
-        padding: 50px 12px;
+        padding: 50px 20px;
     }
 
     #banner-section .banner-section-parent {
@@ -1132,7 +1132,7 @@ section#Main .card-parent>.card {
 
 
     #red-section {
-        padding: 30px 10px;
+        padding: 30px 20px;
     }
 
     #red-section .red-cards-parent {
@@ -1141,7 +1141,7 @@ section#Main .card-parent>.card {
     }
 
     #red-section .red-transparent-card>h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #red-section .red-transparent-card>p {
@@ -1178,12 +1178,12 @@ section#Main .card-parent>.card {
     }
 
     .btn {
-        padding: 20px 38px;
-        font-size: 27px;
+        padding: 10px 28px;
+        font-size: 18px;
     }
 
     .card-container>h4 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     /* overlay section responsiveness  */
@@ -1197,7 +1197,7 @@ section#Main .card-parent>.card {
     }
 
     #background .background-content>h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #background .background-content>button {
@@ -1218,17 +1218,145 @@ section#Main .card-parent>.card {
         min-height: 0vh;
     }
 
+    /* reviews section responsiveness start here */
+
+    #reviews {
+        padding: 60px 20px 30px;
+    }
 
 
+    #reviews .reviewcard-parent {
+        flex-direction: column;
+    }
+
+
+    #reviews .card {
+        padding: 30px 20px;
+    }
+
+    #reviews .card {
+        text-align: center;
+    }
+
+
+    #reviews .review-images {
+        justify-content: center;
+    }
+
+    #reviews .reviews-description>h3 {
+        font-size: 38px;
+    }
+
+    #reviews .reviews-description>p {
+        width: 75%;
+        font-size: 25px;
+    }
+
+
+
+    #reviews .card-image>img {
+        width: 30%;
+
+    }
+
+    #reviews .card>h4 {
+        font-size: 30px;
+    }
+
+    #reviews .card>span {
+        font-size: 20px;
+        padding: 0px;
+
+    }
+
+    #reviews .card>p {
+        font-size: 20px;
+    }
+
+
+
+
+    /* choose section responsiveness start here */
+
+
+    #choose-section {
+        padding: 60px 20px 30px;
+        flex-direction: column;
+    }
+
+
+
+    .left-section,
+    .right-section {
+        width: 100%;
+        padding: 30px 20px;
+
+
+    }
+
+    #choose-section .right-section {
+        padding: 30px 20px;
+
+
+
+    }
+
+
+    #choose-section .left-section>p {
+        font-size: 25px;
+    }
+
+
+    #choose-section .background {
+        padding: 100px 50px;
+    }
+
+    /* Mission section starts here */
+
+    #mission-section {
+        padding: 60px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+    #mission-section .mission-left {
+        padding: 0px;
+    }
+
+    #mission-section .mission-right {
+        padding: 50px;
+    }
+
+    #mission-section .mission-image {
+        text-align: center;
+    }
+
+    #mission-section .mission-image>img {
+        width: 80%;
+    }
+
+
+    /* customers section start here */
+
+    #customers {
+        padding: 60px 20px 50px;
+    }
+
+
+    #customers .customers-images {
+        padding: 20px;
+    }
+
+    .customer-card {
+        width: 200px;
+    }
+
+    #customers .customer-cards-parent {
+        flex-wrap: wrap;
+    }
 }
-
-
-
-
-
-
-
-
 
 
 /* responsive section ends */
