@@ -1186,10 +1186,46 @@ section#Main .card-parent>.card {
         font-size: 40px;
     }
 
+    /* overlay section responsiveness  */
+
+    #background .background-image {
+        background-position-x: 39%;
+    }
+
+    #background .background-content * {
+        width: 100%;
+    }
+
+    #background .background-content>h1 {
+        font-size: 50px;
+    }
+
+    #background .background-content>button {
+        width: auto;
+        padding: 15px 31px;
+        border-radius: 996px;
+        font-size: 25px;
+    }
+
+    #background .background-content>p {
+        font-size: 25px;
+    }
+
+
+
+    #background .background-content {
+        gap: 40px;
+        min-height: 0vh;
+    }
 
 
 
 }
+
+
+
+
+
 
 
 
