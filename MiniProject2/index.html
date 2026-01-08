@@ -33,11 +33,16 @@
 
             </div>
         </div>
+        <!-- BOTTOM NAVBAR -->
         <div class="bottom-navbar">
             <div class="bottom-nav-container">
+
                 <div class="logo-image">
-                    <img src="./assets/images/logo-image.png" alt="" width="" height="">
+                    <img src="./assets/images/logo-image.png" alt="Logo">
                 </div>
+
+                <div class="menu-toggle">☰</div>
+
                 <div class="links">
                     <ul class="links-container">
                         <li><a href="">AboutUs</a></li>
@@ -45,23 +50,19 @@
                         <li><a href="">Services</a></li>
                         <li><a href="">Blog/Articles</a></li>
                         <li><a href="">Franchise Opportunities</a></li>
-
                     </ul>
                 </div>
+
                 <div class="question-btn">
                     <button>Ask a Question</button>
                 </div>
-            </div>
 
+            </div>
         </div>
+
     </navbar>
 
-
     <!-- NAVBAR SECTION ENDS HERE -->
-
-
-
-
 
 
     <!-- bannner section start here  -->
@@ -88,9 +89,7 @@
                     <p>Image from <a href="">Freepik</a></p>
                 </div>
             </div>
-            <div class="banner-right">
-
-            </div>
+            <div class="banner-right"></div>
         </div>
     </section>
 
@@ -555,6 +554,30 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        const toggle = document.querySelector('.menu-toggle');
+        const links = document.querySelector('.links');
+
+        toggle.addEventListener('click', () => {
+            links.classList.toggle('active');
+        });
+
+
+    </script>
 
 
 
