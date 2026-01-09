@@ -992,6 +992,16 @@ section#Main .card-parent>.card {
     line-height: 1.8;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* footer section start here */
 
 #footer-section {
@@ -1006,7 +1016,7 @@ section#Main .card-parent>.card {
 }
 
 #footer-section .footer-logo>img {
-    width: 70% !important;
+    width: 70% ;
     margin-bottom: 15px;
 }
 
@@ -1097,7 +1107,7 @@ section#Main .card-parent>.card {
     .question-btn {
         order: 4;
         width: 100%;
-        display: flex;
+        display: none;
         justify-content: center;
         padding-bottom: 20px;
     }
@@ -1197,19 +1207,17 @@ section#Main .card-parent>.card {
     }
 
     #background .background-content>h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #background .background-content>button {
-        width: auto;
-        padding: 15px 31px;
-        border-radius: 996px;
-        font-size: 25px;
+        padding: 12px 28px;
+        font-size: 20px;
     }
 
-    #background .background-content>p {
+    /* #background .background-content>p {
         font-size: 25px;
-    }
+    } */
 
 
 
@@ -1221,7 +1229,7 @@ section#Main .card-parent>.card {
     /* reviews section responsiveness start here */
 
     #reviews {
-        padding: 60px 20px 30px;
+        padding: 30px 20px;
     }
 
 
@@ -1244,23 +1252,23 @@ section#Main .card-parent>.card {
     }
 
     #reviews .reviews-description>h3 {
-        font-size: 38px;
+        font-size: 35px;
     }
 
     #reviews .reviews-description>p {
         width: 75%;
-        font-size: 25px;
+        font-size: 21px;
     }
 
 
 
     #reviews .card-image>img {
-        width: 30%;
+        width: 25%;
 
     }
 
     #reviews .card>h4 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #reviews .card>span {
@@ -1270,7 +1278,7 @@ section#Main .card-parent>.card {
     }
 
     #reviews .card>p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
 
@@ -1280,7 +1288,7 @@ section#Main .card-parent>.card {
 
 
     #choose-section {
-        padding: 60px 20px 30px;
+        padding: 30px 20px;
         flex-direction: column;
     }
 
@@ -1295,15 +1303,20 @@ section#Main .card-parent>.card {
     }
 
     #choose-section .right-section {
-        padding: 30px 20px;
+        padding: 30px 0px;
+    }
 
+    #choose-section .black-overlay {
+        top: 40%;
+    }
 
-
+    #choose-section .right-content {
+        top: 75px;
     }
 
 
     #choose-section .left-section>p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
 
@@ -1314,7 +1327,7 @@ section#Main .card-parent>.card {
     /* Mission section starts here */
 
     #mission-section {
-        padding: 60px 20px;
+        padding: 30px 20px;
         flex-direction: column;
         gap: 20px;
     }
@@ -1326,7 +1339,8 @@ section#Main .card-parent>.card {
     }
 
     #mission-section .mission-right {
-        padding: 50px;
+        padding:30px 0px;
+        width: 100vw;
     }
 
     #mission-section .mission-image {
@@ -1337,26 +1351,321 @@ section#Main .card-parent>.card {
         width: 80%;
     }
 
+    #mission-section .mission-left-description>p {
+        font-size: 16px;
+    }
 
-    /* customers section start here */
+    #mission-section .mission-left-description>h3 {
+        font-size: 35px;
 
-    #customers {
-        padding: 60px 20px 50px;
     }
 
 
-    #customers .customers-images {
-        padding: 20px;
+        /* customers section start here */
+
+        #customers {
+            padding: 60px 20px 50px;
+        }
+
+
+        #customers .customers-images {
+            padding: 20px;
+        }
+
+        .customer-card {
+            width: 400px;
+        }
+
+        #customers .customer-cards-parent {
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+
+        /* gym section responsiveness start here */
+
+
+        #gym-section {
+            background: url(./images/gym-bg.jpg) center/cover no-repeat;
+            padding: 130px 20px;
+            height: 40vh;
+        }
+
+        #gym-section .left-heading>h1 {
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        #gym-section .left-para {
+            margin: 20px 0px;
+        }
+
+
+        #gym-section .left-para>p {
+            font-size: 15px;
+            line-height: 18px;
+        }
+
+        #gym-section .left-gym-section {
+            display: block;
+            padding: 30px 10px;
+        }
+
+
+        #gym-section .left-container {
+            width: 100%;
+        }
+
+        #gym-section .left-btn>button {
+            padding: 10px 20PX;
+            font-size: 15px;
+        }
+
+        /* training section responsiveness start here */
+
+        #training-section {
+            padding: 30px 20px;
+            height: auto;
+        }
+
+        #training-section .training-section-parent {
+            flex-direction: column;
+        }
+
+        #training-section .training-heading>h3 {
+            font-size: 40px;
+            font-weight: bold;
+            padding: 20px 10px;
+            margin: 0px;
+        }
+
+        #training-section .left-container {
+            width: 100%;
+
+        }
+
+
+        #training-section .training-type1-heading>h4,
+        #training-section .training-type2-heading>h4,
+        #training-section .training-type3-heading>h4 {
+            font-size: 22px;
+        }
+
+        #training-section .training-type1-description>p,
+        #training-section .training-type2-description>p,
+        #training-section .training-type3-description>p {
+            font-size: 15px;
+        }
+
+
+
+        #training-section .right-container {
+            width: 100%;
+        }
+
+        .right-child2 {
+            flex-direction: column;
+        }
+
+
+        /* running responsiveness  */
+
+
+        #running-section {
+            padding: 20px 30px;
+        }
+
+
+
+        #running-section .running-heading>h1 {
+            text-align: center;
+            font-size: 35px;
+            font-weight: 600;
+        }
+
+        #running-section .running-benefits {
+            flex-direction: column;
+            padding: 0px;
+            gap: 0px;
+        }
+
+        #running-section h5 {
+            color: #000;
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 30px;
+        }
+
+        #running-section p {
+            font-size: 20px;
+            padding: 20px 30px;
+        }
+
+        #running-section .left-benefits-container1 {
+            flex-direction: column;
+            margin: 50px 0px;
+            gap: 20px;
+        }
+
+        #running-section .left-benefits {
+            width: 100%;
+
+        }
+
+
+        #running-section .left-benefits-description1 {
+            width: 100%;
+        }
+
+        #running-section .left-benefits-image1 {
+            width: 106%;
+            height: 100%;
+            text-align: center;
+        }
+
+        #running-section .left-benefits-image1>img {
+            width: 80%;
+        }
+
+
+        /* ---------- */
+
+
+        #running-section .left-benefits-container2 {
+            flex-direction: column;
+            margin: 50px 0px;
+            gap: 20px;
+        }
+
+        #running-section .left-benefits {
+            width: 100%;
+
+        }
+
+
+        #running-section .left-benefits-description2 {
+            order: 2;
+            width: 100%;
+        }
+
+        #running-section .left-benefits-image2 {
+            width: 106%;
+            /* height: 100%; */
+            text-align: center;
+            order: 1;
+        }
+
+        #running-section .left-benefits-image2>img {
+            width: 80%;
+        }
+
+        /* ----------- */
+
+
+
+
+        #running-section .right-bernefits {
+            width: 100%;
+        }
+
+        /* ---------- */
+
+        #running-section .right-benefits-container1 {
+            flex-direction: column;
+            margin: 50px 0px;
+            gap: 20px;
+
+        }
+
+        #running-section .right-benefits {
+            width: 100%;
+
+        }
+
+
+        #running-section .right-benefits-description1 {
+            width: 100%;
+        }
+
+        #running-section .right-benefits-image1 {
+            width: 106%;
+            height: 100%;
+            text-align: center;
+        }
+
+        #running-section .right-benefits-image1>img {
+            width: 80%;
+        }
+
+
+        /* -------- */
+
+
+        #running-section .right-benefits-container2 {
+            flex-direction: column;
+            margin: 50px 0px;
+            gap: 20px;  
+        }
+
+        #running-section .right-benefits {
+            width: 100%;
+
+        }
+
+
+        #running-section .right-benefits-description2 {
+            width: 100%;
+            order: 2;
+        }
+
+        #running-section .right-benefits-image2 {
+            width: 106%;
+            height: 100%;
+            text-align: center;
+            order: 1;
+        }
+
+        #running-section .right-benefits-image2>img {
+            width: 80%;
+        }
+
+
+
+
+        /* footer responsiveness start here */
+
+        #footer-section {
+            padding: 10px 30px;
+        }
+
+        #footer-section .footer-section-parent {
+            flex-direction: column;
+            gap: 30px;
+            text-align: center;
+        }
+
+        #footer-section .footer-section-parent * {
+            width: 100%;
+        }
+
+        .footer-logo {
+            text-align: center;
+        }
+
+        #footer-section .footer-logo>img {
+            width: 50%;
+        }
+
+
+
+
+
+
     }
 
-    .customer-card {
-        width: 200px;
-    }
-
-    #customers .customer-cards-parent {
-        flex-wrap: wrap;
-    }
-}
 
 
-/* responsive section ends */
+
+
+    /* responsive section ends */
